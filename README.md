@@ -51,7 +51,7 @@ https://github.com/user-attachments/assets/181d48c2-f152-45f5-b568-21145be180f6
 ### Automatic Installation
 
 ```sh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/keyitdev/sddm-astronaut-theme/master/setup.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/Itz-fork/sddm-astronaut-theme/master/setup.sh)"
 ```
 > Works on distributions using pacman, xbps-install, dnf, zypper.   
 > Remember to always read the scripts you run from the internet.
@@ -63,7 +63,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/keyitdev/sddm-astronaut-th
 [`sddm >= 0.21.0`](https://github.com/sddm/sddm), [`qt6 >= 6.8`](https://doc.qt.io/qt-6/index.html), [`qt6-svg >= 6.8`](https://doc.qt.io/qt-6/qtsvg-index.html), [`qt6-virtualkeyboard >= 6.8`](https://doc.qt.io/qt-6/qtvirtualkeyboard-index.html), [`qt6-multimedia >= 6.8`](https://doc.qt.io/qt-6/qtmultimedia-index.html)
 
 ```sh
-sddm qt6-svg qt6-virtualkeyboard qt6-multimedia-ffmpeg     # Arch
+sddm qt6-svg qt6-virtualkeyboard qt6-multimedia     # Arch
 sddm qt6-svg qt6-virtualkeyboard qt6-multimedia            # Void
 sddm qt6-qtsvg qt6-qtvirtualkeyboard qt6-qtmultimedia      # Fedora
 sddm-qt6 qt6-svg qt6-virtualkeyboard qt6-multimedia        # OpenSUSE

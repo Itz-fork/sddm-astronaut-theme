@@ -15,7 +15,7 @@ install_dependencies(){
     if [ -x "$(command -v pacman)" ];
     then
         echo -e "${green}[*] Installing packages using pacman.${no_color}"
-        sudo pacman --noconfirm --needed -S sddm qt6-svg qt6-virtualkeyboard qt6-multimedia-ffmpeg
+        sudo pacman --noconfirm --needed -S sddm qt6-svg qt6-virtualkeyboard qt6-multimedia
     elif [ -x "$(command -v xbps-install)" ];
     then
         echo -e "${green}[*] Installing packages using xbps-install.${no_color}"
